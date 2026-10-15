@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Frontier Hoops</title>
+<meta name="description" content="Shoot the basket. Every ball is an RWA token.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrap">
+  <canvas id="c"></canvas>
+
+  <div id="overlay">
+    <div class="card">
+      <h1 id="title">FRONTIER<br>HOOPS</h1>
+      <p class="sub" id="sub">Every ball is a token. Shoot the basket.</p>
+      <div id="stats"></div>
+      <button id="play">PLAY</button>
+      <ul class="how">
+        <li>Drag back anywhere and release to shoot</li>
+        <li>Behind the 3PT line = 3 points</li>
+        <li>Swish = +1 point and +2 seconds</li>
+        <li>Score all 5 tokens = BASKET COMPLETE +10</li>
+        <li>$FRONTIER balls score double</li>
+        <li>Hit streaks raise your multiplier</li>
+      </ul>
+    </div>
+  </div>
+
+  <button id="mute" title="Sound (M)">SOUND ON</button>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
